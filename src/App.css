@@ -1,17 +1,14 @@
-.Home-Container{
+.App {
+    /* background-color: #4C22FF; */
     display: flex;
-    flex-direction: column;
     width: 100vw;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
-    background-color: #95DDE9;
 }
 
-.Image-Container{
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    height: 50%;
-}
 
+
+@media(max-width: 480px){
+    .App{
+        height: 50vh;
+    }
+}
